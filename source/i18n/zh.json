@@ -1,0 +1,327 @@
+{
+  "audio": {
+    "title": "音频播放器",
+    "playlist": "播放列表",
+    "volume": "音量：{volume}%",
+    "controls": {
+      "play": "播放",
+      "pause": "暂停",
+      "stop": "停止"
+    },
+    "tracks": {
+      "relaxing_melody": "放松旋律",
+      "calm_waters": "平静水域",
+      "peaceful_mind": "平静心灵",
+      "eeg_stage_1": "脑电图放松阶段",
+      "eeg_stage_2": "脑电图专注阶段",
+      "eeg_stage_3": "脑电图想象阶段"
+    },
+    "artist": "Valen医疗",
+    "errors": {
+      "not_found": "找不到音频轨道",
+      "playback_error": "播放过程中出错"
+    },
+    "messages": {
+      "audio_paused": "音频已暂停",
+      "audio_resumed": "音频已恢复",
+      "audio_stopped": "音频已停止",
+      "volume_set": "音量设置为{volume}%",
+      "seeking": "正在跳转到{position}"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "settings": "设置",
+    "language": "语言",
+    "welcome": "欢迎使用 Valen",
+    "hideLog": "隐藏日志",
+    "showLog": "显示日志",
+    "cancel": "取消",
+    "save": "保存",
+    "actions": "操作",
+    "view": "查看",
+    "create": "创建",
+    "close": "关闭"
+  },
+  "home": {
+    "version": "版本：{version}",
+    "copyright": "© {year} 瓦伦贝拉机器人"
+  },
+  "imu": {
+    "title": "IMU 可视化",
+    "controls": {
+      "startRecording": "开始 IMU 记录",
+      "stopRecording": "停止 IMU 记录",
+      "resetOrientation": "重置方向"
+    },
+    "stats": {
+      "title": "IMU 数据",
+      "xAxis": "X 轴",
+      "yAxis": "Y 轴",
+      "zAxis": "Z 轴",
+      "temp": "温度"
+    },
+    "simulation": "模拟"
+  },
+  "patient": {
+    "title": "病人管理",
+    "add": "添加病人",
+    "refresh": "刷新列表",
+    "newPatient": "新病人",
+    "noPatients": "未找到病人",
+    "fields": {
+      "id": "编号",
+      "name": "姓名",
+      "gender": "性别",
+      "age": "年龄",
+      "notes": "备注",
+      "status": "状态"
+    },
+    "genders": {
+      "male": "男",
+      "female": "女",
+      "other": "其他"
+    },
+    "status": {
+      "active": "活动",
+      "inactive": "不活动"
+    },
+    "activate": "激活",
+    "deactivate": "停用",
+    "startDiagnosis": "开始诊断"
+  },
+  "diagnosis": {
+    "title": "诊断管理",
+    "create": "创建诊断",
+    "refresh": "刷新列表",
+    "newDiagnosis": "新诊断",
+    "noDiagnoses": "未找到诊断记录",
+    "selectPatient": "选择病人",
+    "diagnosesFor": "诊断记录：",
+    "confirmCreation": "为以下病人创建新的诊断：",
+    "fields": {
+      "id": "诊断编号",
+      "date": "日期",
+      "stages": "阶段",
+      "results": "结果",
+      "status": "状态"
+    },
+    "record": "记录脑电图",
+    "recording": "脑电图记录",
+    "recordingForPatient": "为病人记录脑电图：",
+    "diagnosisId": "诊断编号：",
+    "selectStage": "选择脑电图阶段",
+    "stage": "阶段",
+    "startRecording": "开始记录",
+    "stopRecording": "停止记录",
+    "evaluate": "评估数据",
+    "noPatientSelected": "未选择病人",
+    "pleaseSelectPatient": "请选择病人以查看或创建诊断记录",
+    "createFirstDiagnosis": "创建第一个诊断",
+    "goToPatientSelection": "前往病人选择",
+    "viewResults": "查看结果",
+    "predict": "预测",
+    "details": "详情"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français"
+  },
+  "routes": {
+    "home": "首页",
+    "about": "关于",
+    "eeg": "脑电监测",
+    "audio": "音频播放器",
+    "imu": "IMU 传感器",
+    "bluetooth": "蓝牙设备",
+    "usb": "USB 管理",
+    "patient": "病人管理",
+    "diagnosis": "诊断管理",
+    "heart": "心率监测",
+    "setting": "设置",
+    "account": "账户",
+    "report": "报告",
+    "sensor": "传感器",
+    "survey": "心理调查"
+  },
+  "usb": {
+    "title": "USB存储管理",
+    "actions": {
+      "detect": "检测USB设备",
+      "detecting": "正在检测..."
+    },
+    "devices": {
+      "title": "可用的USB存储设备",
+      "empty": "未检测到USB存储设备",
+      "device": {
+        "name": "设备名称",
+        "path": "设备路径",
+        "mounted": "挂载点",
+        "notMounted": "未挂载 - 无法使用"
+      },
+      "mountWarning": "一个或多个设备未正确挂载。只有已挂载的设备才能使用。",
+      "help": "显示挂载帮助",
+      "helpText": "如果您的USB设备未自动挂载，请尝试以下步骤：\n1. 拔掉并重新连接USB设备\n2. 确保设备已格式化（推荐FAT32或ext4格式）\n3. 如果使用USB集线器，请直接连接到计算机\n4. 检查系统日志中的挂载错误"
+    },
+    "details": {
+      "title": "设备详情",
+      "space": "可用，共"
+    },
+    "database": {
+      "title": "数据库备份",
+      "backup": "将数据库备份到USB",
+      "notFound": "未找到数据库文件",
+      "backingUp": "正在备份数据库..."
+    },
+    "firmware": {
+      "title": "固件上传",
+      "select": "选择固件文件(.bin)",
+      "selected": "已选择：",
+      "upload": "上传固件",
+      "uploading": "上传中..."
+    },
+    "errors": {
+      "noDeviceSelected": "未选择USB设备",
+      "deviceNotMounted": "所选USB设备未挂载。请确保它已正确连接并挂载。"
+    }
+  },
+  "bluetooth": {
+    "title": "蓝牙设备",
+    "scanning": "扫描中...",
+    "scanButton": "扫描设备",
+    "noDevices": "未找到蓝牙设备。点击\"扫描设备\"进行搜索。",
+    "tabs": {
+      "discovered": "发现的设备",
+      "paired": "已配对设备"
+    },
+    "deviceTypes": {
+      "audio": "音频设备",
+      "input": "输入设备",
+      "phone": "手机",
+      "computer": "电脑",
+      "unknown": "其他设备"
+    },
+    "status": {
+      "connected": "已连接",
+      "disconnected": "已断开",
+      "connecting": "连接中...",
+      "disconnecting": "断开中...",
+      "pairing": "配对中...",
+      "preparing": "准备中...",
+      "error": "错误"
+    },
+    "actions": {
+      "connect": "连接",
+      "disconnect": "断开",
+      "pair": "配对并连接",
+      "unpair": "取消配对"
+    },
+    "badges": {
+      "paired": "已配对",
+      "connected": "已连接"
+    },
+    "pin": {
+      "title": "输入PIN码",
+      "instruction": "请输入设备上显示的PIN码：",
+      "placeholder": "例如：0000",
+      "cancel": "取消",
+      "confirm": "确认"
+    },
+    "errors": {
+      "connectionFailed": "连接失败",
+      "pairingFailed": "配对失败",
+      "deviceNotFound": "未找到设备",
+      "bluetoothNotAvailable": "蓝牙不可用"
+    }
+  },
+  "status": {
+    "wifiConnected": "WiFi 已连接",
+    "wifiDisconnected": "WiFi 未连接",
+    "mqttConnected": "Valen 已连接",
+    "mqttDisconnected": "Valen 未连接",
+    "bluetoothConnected": "蓝牙已连接",
+    "bluetoothDisconnected": "蓝牙未连接"
+  },
+  "survey": {
+    "title": "心理调查",
+    "bdiTitle": "贝克抑郁量表（BDI-II）",
+    "instructions": "本问卷包含21组陈述。请仔细阅读每一组，然后选择最符合你过去两周（包括今天）感受的一项。",
+    "question": "问题",
+    "of": "共",
+    "next": "下一题",
+    "previous": "上一题",
+    "submit": "提交",
+    "restart": "重新开始",
+    "selectPatient": "选择病人",
+    "noPatientSelected": "开始调查前请选择病人",
+    "noDiagnosisSelected": "未选择诊断。请在开始调查前创建或选择一个诊断。",
+    "saveResults": "保存结果",
+    "resultsTitle": "调查结果",
+    "interpretation": {
+      "title": "解释",
+      "minimal": "0-13：轻微抑郁",
+      "mild": "14-19：轻度抑郁",
+      "moderate": "20-28：中度抑郁",
+      "severe": "29-63：重度抑郁"
+    },
+    "score": "总分",
+    "date": "日期",
+    "saved": "调查结果已成功保存"
+  },
+  "eeg": {
+    "controls": {
+      "startRecording": "开始脑电图记录",
+      "stopRecording": "停止脑电图记录",
+      "showBrainModel": "显示脑模型",
+      "hideBrainModel": "隐藏脑模型",
+      "evaluate": "评估"
+    },
+    "stats": {
+      "title": "脑电图数据",
+      "snr": "信噪比"
+    },
+    "brainScale": "比例: {scale}%",
+    "stage": {
+      "title": "阶段"
+    },
+    "evaluation": {
+      "title": "脑电图评估结果",
+      "certainty": "确定性 {percent}%",
+      "diagnosisId": "诊断编号",
+      "stage": "阶段",
+      "recordsAnalyzed": "分析记录数",
+      "predictionId": "预测编号",
+      "timestamp": "时间戳",
+      "rawOutput": "原始预测输出",
+      "class": "类别",
+      "close": "关闭",
+      "notAvailable": "不可用"
+    },
+    "simulation": "模拟",
+    "modelLoading": "加载脑模型中...",
+    "modelError": "加载详细脑模型失败",
+    "noDiagnosisSelected": "未选择诊断",
+    "pleaseSelectDiagnosis": "请选择诊断以继续脑电图可视化",
+    "goToDiagnosisSelection": "前往诊断选择"
+  },
+  "predict": {
+    "title": "预测结果",
+    "loading": "正在加载预测...",
+    "certainty": "确定性 {percent}%",
+    "diagnosisId": "诊断编号",
+    "stage": "阶段",
+    "recordsAnalyzed": "分析记录数",
+    "predictionId": "预测编号",
+    "timestamp": "时间戳",
+    "rawOutput": "原始预测输出",
+    "class": "类别",
+    "notAvailable": "不可用",
+    "evaluationResults": "脑电图评估结果",
+    "close": "关闭",
+    "saveResults": "保存结果"
+  }
+}

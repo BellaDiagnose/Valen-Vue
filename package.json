@@ -1,0 +1,45 @@
+{
+  "name": "valen-gtk4",
+  "version": "1.0.0",
+  "description": "Vue.js application with GTK4",
+  "main": "source/valen.js",
+  "scripts": {
+    "dev": "npx webpack --mode development",
+    "dev:watch": "npx webpack --mode development --watch",
+    "prebuild": "npm run check-models && npm test && npm run dev",
+    "build": "npx webpack --mode production",
+    "build:fast": "npx webpack --mode production",
+    "build:safe": "npm test && npm run build:fast",
+    "clean": "rm -rf build node_modules package-lock.json",
+    "rebuild": "npm run clean && npm install && npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:stores": "vitest run tests/unit/stores",
+    "test:components": "vitest run tests/unit/components"
+  },
+  "dependencies": {
+    "pinia": "^2.1.6",
+    "stats.js": "^0.17.0",
+    "three": "^0.157.0",
+    "vue": "^3.3.4",
+    "vue-i18n": "^11.1.2",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/compiler-sfc": "^3.3.4",
+    "@vue/test-utils": "^2.4.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "jsdom": "^22.1.0",
+    "style-loader": "^3.3.3",
+    "vitest": "^0.34.4",
+    "vue-loader": "^17.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "audio": {
+    "title": "Lecteur Audio",
+    "playlist": "Liste de lecture",
+    "volume": "Volume : {volume}%",
+    "controls": {
+      "play": "Lecture",
+      "pause": "Pause",
+      "stop": "Arrêter"
+    },
+    "tracks": {
+      "relaxing_melody": "Mélodie Relaxante",
+      "calm_waters": "Eaux Calmes",
+      "peaceful_mind": "Esprit Paisible",
+      "eeg_stage_1": "Phase de Relaxation EEG",
+      "eeg_stage_2": "Phase de Concentration EEG",
+      "eeg_stage_3": "Phase d'Imagerie EEG"
+    },
+    "artist": "Valen Médical",
+    "errors": {
+      "not_found": "Piste introuvable dans la liste de lecture",
+      "playback_error": "Erreur lors de la lecture"
+    },
+    "messages": {
+      "audio_paused": "Audio en pause",
+      "audio_resumed": "Audio repris",
+      "audio_stopped": "Audio arrêté",
+      "volume_set": "Volume réglé à {volume}%",
+      "seeking": "Déplacement à la position : {position}s"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "settings": "Paramètres",
+    "language": "Langue",
+    "welcome": "Bienvenue sur Valen",
+    "hideLog": "Masquer les journaux",
+    "showLog": "Afficher les journaux",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "actions": "Actions",
+    "view": "Voir",
+    "create": "Créer",
+    "close": "Fermer"
+  },
+  "home": {
+    "version": "Version : {version}",
+    "copyright": "© {year} Valen Robotique"
+  },
+  "imu": {
+    "title": "Visualisation IMU",
+    "controls": {
+      "startRecording": "Démarrer l'Enregistrement IMU",
+      "stopRecording": "Arrêter l'Enregistrement IMU",
+      "resetOrientation": "Réinitialiser l'Orientation"
+    },
+    "stats": {
+      "title": "STATS IMU",
+      "xAxis": "AXE-X",
+      "yAxis": "AXE-Y",
+      "zAxis": "AXE-Z",
+      "temp": "TEMP"
+    },
+    "simulation": "SIMULATION"
+  },
+  "patient": {
+    "title": "Gestion des Patients",
+    "add": "Ajouter un Patient",
+    "refresh": "Actualiser la Liste",
+    "newPatient": "Nouveau Patient",
+    "noPatients": "Aucun patient trouvé",
+    "fields": {
+      "id": "ID",
+      "name": "Nom",
+      "gender": "Genre",
+      "age": "Âge",
+      "notes": "Notes",
+      "status": "Statut"
+    },
+    "genders": {
+      "male": "Masculin",
+      "female": "Féminin",
+      "other": "Autre"
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "activate": "Activer",
+    "deactivate": "Désactiver",
+    "startDiagnosis": "Démarrer Diagnostic"
+  },
+  "diagnosis": {
+    "title": "Gestion des Diagnostics",
+    "create": "Créer un Diagnostic",
+    "refresh": "Actualiser la Liste",
+    "newDiagnosis": "Nouveau Diagnostic",
+    "noDiagnoses": "Aucun diagnostic trouvé",
+    "selectPatient": "Sélectionner un Patient",
+    "diagnosesFor": "Diagnostics pour",
+    "confirmCreation": "Créer un nouveau diagnostic pour",
+    "fields": {
+      "id": "ID de Diagnostic",
+      "date": "Date",
+      "stages": "Étapes",
+      "results": "Résultats",
+      "status": "Statut"
+    },
+    "record": "Enregistrer EEG",
+    "recording": "Enregistrement EEG",
+    "recordingForPatient": "Enregistrement EEG pour le patient :",
+    "diagnosisId": "ID de diagnostic :",
+    "selectStage": "Sélectionner l'Étape EEG",
+    "stage": "Étape",
+    "startRecording": "Démarrer l'Enregistrement",
+    "stopRecording": "Arrêter l'Enregistrement",
+    "evaluate": "Évaluer les Données",
+    "noPatientSelected": "Aucun patient sélectionné",
+    "pleaseSelectPatient": "Veuillez sélectionner un patient pour voir ou créer des diagnostics",
+    "createFirstDiagnosis": "Créer le Premier Diagnostic",
+    "goToPatientSelection": "Aller à la Sélection de Patient",
+    "viewResults": "Voir les Résultats",
+    "predict": "Prédire",
+    "details": "Détails"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français"
+  },
+  "routes": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "eeg": "Surveillance EEG",
+    "audio": "Lecteur Audio",
+    "imu": "Capteurs IMU",
+    "bluetooth": "Appareils Bluetooth",
+    "usb": "Gestion USB",
+    "patient": "Gestion des Patients",
+    "diagnosis": "Diagnostics",
+    "heart": "Moniteur Cardiaque",
+    "setting": "Paramètres",
+    "account": "Compte",
+    "report": "Rapports",
+    "sensor": "Capteurs",
+    "survey": "Enquête psychologique"
+  },
+  "usb": {
+    "title": "Gestion de Stockage USB",
+    "actions": {
+      "detect": "Détecter les Périphériques USB",
+      "detecting": "Détection..."
+    },
+    "devices": {
+      "title": "Périphériques de Stockage USB Disponibles",
+      "empty": "Aucun périphérique de stockage USB détecté",
+      "device": {
+        "name": "Nom du périphérique",
+        "path": "Chemin du périphérique",
+        "mounted": "Monté sur",
+        "notMounted": "Non monté - inutilisable"
+      },
+      "mountWarning": "Un ou plusieurs périphériques ne sont pas correctement montés. Seuls les périphériques montés peuvent être utilisés.",
+      "help": "Afficher l'aide de montage",
+      "helpText": "Si votre périphérique USB n'est pas monté automatiquement, essayez ces étapes :\n1. Débranchez et reconnectez le périphérique USB\n2. Assurez-vous que le périphérique est formaté (FAT32 ou ext4 recommandé)\n3. Si vous utilisez un hub USB, connectez-vous directement à l'ordinateur\n4. Vérifiez les journaux système pour les erreurs de montage"
+    },
+    "details": {
+      "title": "Détails du Périphérique",
+      "space": "libre sur"
+    },
+    "database": {
+      "title": "Sauvegarde de la Base de Données",
+      "backup": "Sauvegarder la Base de Données sur USB",
+      "notFound": "Fichier de base de données introuvable",
+      "backingUp": "Sauvegarde de la base de données en cours..."
+    },
+    "firmware": {
+      "title": "Téléchargement du Firmware",
+      "select": "Sélectionner un Fichier Firmware (.bin)",
+      "selected": "Sélectionné :",
+      "upload": "Télécharger le Firmware",
+      "uploading": "Téléchargement..."
+    },
+    "errors": {
+      "noDeviceSelected": "Aucun périphérique USB sélectionné",
+      "deviceNotMounted": "Le périphérique USB sélectionné n'est pas monté. Veuillez vous assurer qu'il est correctement connecté et monté."
+    }
+  },
+  "bluetooth": {
+    "title": "Appareils Bluetooth",
+    "scanning": "Recherche en cours...",
+    "scanButton": "Rechercher des Appareils",
+    "noDevices": "Aucun appareil Bluetooth trouvé. Cliquez sur \"Rechercher des Appareils\" pour lancer la recherche.",
+    "tabs": {
+      "discovered": "Appareils Découverts",
+      "paired": "Appareils Appairés"
+    },
+    "deviceTypes": {
+      "audio": "Appareil Audio",
+      "input": "Périphérique d'Entrée",
+      "phone": "Téléphone",
+      "computer": "Ordinateur",
+      "unknown": "Autre Appareil"
+    },
+    "status": {
+      "connected": "Connecté",
+      "disconnected": "Déconnecté",
+      "connecting": "Connexion en cours...",
+      "disconnecting": "Déconnexion en cours...",
+      "pairing": "Appairage en cours...",
+      "preparing": "Préparation...",
+      "error": "Erreur"
+    },
+    "actions": {
+      "connect": "Connecter",
+      "disconnect": "Déconnecter",
+      "pair": "Appairer & Connecter",
+      "unpair": "Dissocier"
+    },
+    "badges": {
+      "paired": "Appairé",
+      "connected": "Connecté"
+    },
+    "pin": {
+      "title": "Entrer le Code PIN",
+      "instruction": "Veuillez entrer le code PIN affiché sur votre appareil :",
+      "placeholder": "ex : 0000",
+      "cancel": "Annuler",
+      "confirm": "Confirmer"
+    },
+    "errors": {
+      "connectionFailed": "Échec de la connexion",
+      "pairingFailed": "Échec de l'appairage",
+      "deviceNotFound": "Appareil non trouvé",
+      "bluetoothNotAvailable": "Bluetooth non disponible"
+    }
+  },
+  "status": {
+    "wifiConnected": "WiFi Connecté",
+    "wifiDisconnected": "WiFi Déconnecté",
+    "mqttConnected": "Valen Connecté",
+    "mqttDisconnected": "Valen Déconnecté",
+    "bluetoothConnected": "Bluetooth Connecté",
+    "bluetoothDisconnected": "Bluetooth Déconnecté"
+  },
+  "survey": {
+    "title": "Enquêtes Psychologiques",
+    "bdiTitle": "Inventaire de dépression de Beck II (BDI-II)",
+    "instructions": "Ce questionnaire comporte 21 groupes de déclarations. Veuillez lire attentivement chaque groupe, puis choisissez la déclaration qui décrit le mieux comment vous vous êtes senti au cours des deux dernières semaines, y compris aujourd'hui.",
+    "question": "Question",
+    "of": "sur",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "submit": "Soumettre",
+    "restart": "Recommencer",
+    "selectPatient": "Sélectionnez un patient",
+    "noPatientSelected": "Veuillez sélectionner un patient avant de commencer l'enquête",
+    "noDiagnosisSelected": "Aucun diagnostic sélectionné. Veuillez créer ou sélectionner un diagnostic avant de commencer l'enquête.",
+    "saveResults": "Enregistrer les résultats",
+    "resultsTitle": "Résultats de l'enquête",
+    "interpretation": {
+      "title": "Interprétation",
+      "minimal": "0-13 : Dépression minimale",
+      "mild": "14-19 : Dépression légère",
+      "moderate": "20-28 : Dépression modérée",
+      "severe": "29-63 : Dépression sévère"
+    },
+    "score": "Score total",
+    "date": "Date",
+    "saved": "Résultats enregistrés avec succès"
+  },
+  "eeg": {
+    "controls": {
+      "startRecording": "Démarrer l'Enregistrement EEG",
+      "stopRecording": "Arrêter l'Enregistrement EEG",
+      "showBrainModel": "Afficher le Modèle du Cerveau",
+      "hideBrainModel": "Masquer le Modèle du Cerveau",
+      "evaluate": "Évaluer"
+    },
+    "stats": {
+      "title": "STATS EEG",
+      "snr": "SNR"
+    },
+    "brainScale": "Échelle : {scale}%",
+    "stage": {
+      "title": "Étape"
+    },
+    "evaluation": {
+      "title": "Résultats d'Évaluation EEG",
+      "certainty": "{percent}% de certitude",
+      "diagnosisId": "ID de Diagnostic",
+      "stage": "Étape",
+      "recordsAnalyzed": "Enregistrements Analysés",
+      "predictionId": "ID de Prédiction",
+      "timestamp": "Horodatage",
+      "rawOutput": "Sortie Brute de Prédiction",
+      "class": "Classe",
+      "close": "Fermer",
+      "notAvailable": "N/A"
+    },
+    "simulation": "SIMULATION",
+    "modelLoading": "Chargement du modèle du cerveau...",
+    "modelError": "Échec du chargement du modèle détaillé du cerveau",
+    "noDiagnosisSelected": "Aucun diagnostic sélectionné",
+    "pleaseSelectDiagnosis": "Veuillez sélectionner un diagnostic pour continuer avec la visualisation EEG",
+    "goToDiagnosisSelection": "Aller à la sélection de diagnostic"
+  },
+  "predict": {
+    "title": "Résultats de Prédiction",
+    "loading": "Chargement des prédictions...",
+    "certainty": "{percent}% de certitude",
+    "diagnosisId": "ID de Diagnostic",
+    "stage": "Étape",
+    "recordsAnalyzed": "Enregistrements Analysés",
+    "predictionId": "ID de Prédiction",
+    "timestamp": "Horodatage",
+    "rawOutput": "Sortie Brute de Prédiction",
+    "class": "Classe",
+    "notAvailable": "N/A",
+    "evaluationResults": "Résultats d'Évaluation EEG",
+    "close": "Fermer",
+    "saveResults": "Enregistrer les résultats"
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "audio": {
+    "title": "Audio Player",
+    "playlist": "Playlist",
+    "volume": "Volume: {volume}%",
+    "controls": {
+      "play": "Play",
+      "pause": "Pause",
+      "stop": "Stop"
+    },
+    "tracks": {
+      "relaxing_melody": "Relaxing Melody",
+      "calm_waters": "Calm Waters",
+      "peaceful_mind": "Peaceful Mind",
+      "eeg_stage_1": "EEG Relaxation Phase",
+      "eeg_stage_2": "EEG Concentration Phase",
+      "eeg_stage_3": "EEG Imagery Phase"
+    },
+    "artist": "Valen Medical",
+    "errors": {
+      "not_found": "Audio track not found",
+      "playback_error": "Error during playback"
+    },
+    "messages": {
+      "audio_paused": "Audio paused",
+      "audio_resumed": "Audio resumed",
+      "audio_stopped": "Audio stopped",
+      "volume_set": "Volume set to {volume}%",
+      "seeking": "Seeking to {position}"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "settings": "Settings",
+    "language": "Language",
+    "welcome": "Welcome to Valen",
+    "hideLog": "Hide Logs",
+    "showLog": "Show Logs",
+    "cancel": "Cancel",
+    "save": "Save",
+    "actions": "Actions",
+    "view": "View",
+    "create": "Create",
+    "close": "Close"
+  },
+  "home": {
+    "version": "Version: {version}",
+    "copyright": "© {year} Valen Robotics"
+  },
+  "imu": {
+    "title": "IMU Visualization",
+    "controls": {
+      "startRecording": "Start IMU Recording",
+      "stopRecording": "Stop IMU Recording",
+      "resetOrientation": "Reset Orientation"
+    },
+    "stats": {
+      "title": "IMU STATS",
+      "xAxis": "X-AXIS",
+      "yAxis": "Y-AXIS",
+      "zAxis": "Z-AXIS",
+      "temp": "TEMP"
+    },
+    "simulation": "SIMULATION"
+  },
+  "patient": {
+    "title": "Patient Management",
+    "add": "Add Patient",
+    "refresh": "Refresh List",
+    "newPatient": "New Patient",
+    "noPatients": "No patients found",
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "gender": "Gender",
+      "age": "Age",
+      "notes": "Notes",
+      "status": "Status"
+    },
+    "genders": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "startDiagnosis": "Start Diagnosis"
+  },
+  "diagnosis": {
+    "title": "Diagnosis Management",
+    "create": "Create Diagnosis",
+    "refresh": "Refresh List",
+    "newDiagnosis": "New Diagnosis",
+    "noDiagnoses": "No diagnoses found",
+    "selectPatient": "Select a Patient",
+    "diagnosesFor": "Diagnoses for",
+    "confirmCreation": "Create a new diagnosis for",
+    "fields": {
+      "id": "Diagnosis ID",
+      "date": "Date",
+      "stages": "Stages",
+      "results": "Results",
+      "status": "Status"
+    },
+    "record": "Record EEG",
+    "recording": "EEG Recording",
+    "recordingForPatient": "Recording EEG for patient:",
+    "diagnosisId": "Diagnosis ID:",
+    "selectStage": "Select EEG Stage",
+    "stage": "Stage",
+    "startRecording": "Start Recording",
+    "stopRecording": "Stop Recording",
+    "evaluate": "Evaluate Data",
+    "noPatientSelected": "No Patient Selected",
+    "pleaseSelectPatient": "Please select a patient to view or create diagnoses",
+    "createFirstDiagnosis": "Create First Diagnosis",
+    "goToPatientSelection": "Go to Patient Selection",
+    "viewResults": "View Results",
+    "predict": "Predict",
+    "details": "Details"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français"
+  },
+  "routes": {
+    "home": "Home",
+    "about": "About",
+    "eeg": "EEG Monitoring",
+    "audio": "Audio Player",
+    "imu": "IMU Sensors",
+    "bluetooth": "Bluetooth Devices",
+    "usb": "USB Management",
+    "patient": "Patient Management",
+    "diagnosis": "Diagnosis",
+    "heart": "Heart Monitor",
+    "setting": "Settings",
+    "account": "Account",
+    "report": "Reports",
+    "sensor": "Sensors",
+    "survey": "Psychological Survey"
+  },
+  "survey": {
+    "title": "Psychological Surveys",
+    "bdiTitle": "Beck Depression Inventory II",
+    "instructions": "This questionnaire consists of 21 groups of statements. Please read each group carefully, and then pick the one statement in each group that best describes the way you have been feeling during the past two weeks, including today.",
+    "question": "Question",
+    "of": "of",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "restart": "Start Over",
+    "selectPatient": "Select Patient",
+    "noPatientSelected": "Please select a patient before starting the survey",
+    "noDiagnosisSelected": "No diagnosis selected. Please create or select a diagnosis before starting the survey.",
+    "saveResults": "Save Results",
+    "resultsTitle": "Survey Results",
+    "interpretation": {
+      "title": "Interpretation",
+      "minimal": "0-13: Minimal Depression",
+      "mild": "14-19: Mild Depression",
+      "moderate": "20-28: Moderate Depression",
+      "severe": "29-63: Severe Depression"
+    },
+    "score": "Total Score",
+    "date": "Date",
+    "saved": "Survey results saved successfully"
+  },
+  "usb": {
+    "title": "USB Storage Management",
+    "actions": {
+      "detect": "Detect USB Devices",
+      "detecting": "Detecting..."
+    },
+    "devices": {
+      "title": "Available USB Storage Devices",
+      "empty": "No USB storage devices detected",
+      "device": {
+        "name": "Device name",
+        "path": "Device path",
+        "mounted": "Mounted at",
+        "notMounted": "Not mounted - cannot use"
+      },
+      "mountWarning": "One or more devices are not properly mounted. Only mounted devices can be used.",
+      "help": "Show Mount Help",
+      "helpText": "If your USB device is not mounted automatically, try these steps:\n1. Unplug and reconnect the USB device\n2. Make sure the device is formatted (FAT32 or ext4 recommended)\n3. If using a USB hub, connect directly to the computer\n4. Check system logs for mount errors"
+    },
+    "details": {
+      "title": "Device Details",
+      "space": "free of"
+    },
+    "database": {
+      "title": "Database Backup",
+      "backup": "Backup Database to USB",
+      "notFound": "Database file not found",
+      "backingUp": "Backing up database..."
+    },
+    "firmware": {
+      "title": "Firmware Upload",
+      "select": "Select Firmware File (.bin)",
+      "selected": "Selected:",
+      "upload": "Upload Firmware",
+      "uploading": "Uploading..."
+    },
+    "errors": {
+      "noDeviceSelected": "No USB device selected",
+      "deviceNotMounted": "Selected USB device is not mounted. Please make sure it's properly connected and mounted."
+    }
+  },
+  "bluetooth": {
+    "title": "Bluetooth Devices",
+    "scanning": "Scanning...",
+    "scanButton": "Scan for Devices",
+    "noDevices": "No Bluetooth devices found. Click \"Scan for Devices\" to search.",
+    "tabs": {
+      "discovered": "Discovered Devices",
+      "paired": "Paired Devices"
+    },
+    "deviceTypes": {
+      "audio": "Audio Device",
+      "input": "Input Device",
+      "phone": "Phone",
+      "computer": "Computer",
+      "unknown": "Other Device"
+    },
+    "status": {
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "connecting": "Connecting...",
+      "disconnecting": "Disconnecting...",
+      "pairing": "Pairing...",
+      "preparing": "Preparing...",
+      "error": "Error"
+    },
+    "actions": {
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "pair": "Pair & Connect",
+      "unpair": "Unpair"
+    },
+    "badges": {
+      "paired": "Paired",
+      "connected": "Connected"
+    },
+    "pin": {
+      "title": "Enter PIN Code",
+      "instruction": "Please enter the PIN code shown on your device:",
+      "placeholder": "e.g. 0000",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "errors": {
+      "connectionFailed": "Connection failed",
+      "pairingFailed": "Pairing failed",
+      "deviceNotFound": "Device not found",
+      "bluetoothNotAvailable": "Bluetooth not available"
+    }
+  },
+  "status": {
+    "wifiConnected": "WiFi Connected",
+    "wifiDisconnected": "WiFi Disconnected",
+    "mqttConnected": "Valen Connected",
+    "mqttDisconnected": "Valen Disconnected",
+    "bluetoothConnected": "Bluetooth Connected",
+    "bluetoothDisconnected": "Bluetooth Disconnected"
+  },
+  "eeg": {
+    "controls": {
+      "startRecording": "Start EEG Recording",
+      "stopRecording": "Stop EEG Recording",
+      "showBrainModel": "Show Brain Model",
+      "hideBrainModel": "Hide Brain Model",
+      "evaluate": "Evaluate"
+    },
+    "stats": {
+      "title": "EEG STATS",
+      "snr": "SNR"
+    },
+    "brainScale": "Scale: {scale}%",
+    "stage": {
+      "title": "Stage"
+    },
+    "evaluation": {
+      "title": "EEG Evaluation Results",
+      "certainty": "{percent}% certainty",
+      "diagnosisId": "Diagnosis ID",
+      "stage": "Stage",
+      "recordsAnalyzed": "Records Analyzed",
+      "predictionId": "Prediction ID",
+      "timestamp": "Timestamp",
+      "rawOutput": "Raw Prediction Output",
+      "class": "Class",
+      "close": "Close",
+      "notAvailable": "N/A"
+    },
+    "simulation": "SIMULATION",
+    "modelLoading": "Loading brain model...",
+    "modelError": "Failed to load detailed brain model",
+    "noDiagnosisSelected": "No Diagnosis Selected",
+    "pleaseSelectDiagnosis": "Please select a diagnosis to proceed with EEG visualization",
+    "goToDiagnosisSelection": "Go to Diagnosis Selection"
+  },
+  "predict": {
+    "title": "Prediction Results",
+    "loading": "Loading predictions...",
+    "certainty": "{percent}% certainty",
+    "diagnosisId": "Diagnosis ID",
+    "stage": "Stage",
+    "recordsAnalyzed": "Records Analyzed",
+    "predictionId": "Prediction ID",
+    "timestamp": "Timestamp",
+    "rawOutput": "Raw Prediction Output",
+    "class": "Class",
+    "notAvailable": "N/A",
+    "evaluationResults": "EEG Evaluation Results",
+    "close": "Close",
+    "saveResults": "Save Results"
+  }
+}

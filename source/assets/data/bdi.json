@@ -1,0 +1,112 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Sadness",
+      "options": [
+        "I do not feel sad.",
+        "I feel sad much of the time.",
+        "I am sad all the time.",
+        "I am so sad or unhappy that I can't stand it."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    },
+    {
+      "id": 2,
+      "question": "Pessimism",
+      "options": [
+        "I am not discouraged about my future.",
+        "I feel more discouraged about my future than I used to be.",
+        "I do not expect things to work out for me.",
+        "I feel my future is hopeless and will only get worse."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    },
+    {
+      "id": 3,
+      "question": "Past Failure",
+      "options": [
+        "I do not feel like a failure.",
+        "I have failed more than I should have.",
+        "As I look back, I see a lot of failures.",
+        "I feel I am a total failure as a person."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    },
+    {
+      "id": 4,
+      "question": "Loss of Pleasure",
+      "options": [
+        "I get as much pleasure as I ever did from the things I enjoy.",
+        "I don't enjoy things as much as I used to.",
+        "I get very little pleasure from the things I used to enjoy.",
+        "I can't get any pleasure from the things I used to enjoy."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    },
+    {
+      "id": 5,
+      "question": "Guilty Feelings",
+      "options": [
+        "I don't feel guilty.",
+        "I feel guilty over many things I have done.",
+        "I feel quite guilty most of the time.",
+        "I feel guilty all of the time."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    },
+    {
+      "id": 6,
+      "question": "Punishment Feelings",
+      "options": [
+        "I don't feel I am being punished.",
+        "I feel I may be punished.",
+        "I expect to be punished.",
+        "I feel I am being punished."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    },
+    {
+      "id": 7,
+      "question": "Self-Dislike",
+      "options": [
+        "I feel no dislike for myself.",
+        "I have lost confidence in myself.",
+        "I am disappointed in myself.",
+        "I dislike myself."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    },
+    {
+      "id": 8,
+      "question": "Self-Criticalness",
+      "options": [
+        "I don't criticize or blame myself more than usual.",
+        "I am more critical of myself than I used to be.",
+        "I criticize myself for all of my faults.",
+        "I blame myself for everything bad that happens."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    },
+    {
+      "id": 9,
+      "question": "Suicidal Thoughts or Wishes",
+      "options": [
+        "I don't have any suicidal thoughts.",
+        "I have suicidal thoughts but would not carry them out.",
+        "I would like to kill myself.",
+        "I would kill myself if I had the chance."
+      ],
+      "timeframe": "past two weeks [[6]][[7]]",
+      "scoring": "0–3 points per item [[1]]"
+    }
+  ]
+}
